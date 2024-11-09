@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <nav>
       <ul>
         <li><a href="./index.html">Home</a></li>
         <li><a href="#About">About</a></li>
-        <li><a href="#Resume">work</a></li>
+        <li><a href="#work">work</a></li>
         <li><a href="#Resume">Resume</a></li>
         <li><a href="#contact">contact</a></li>
       </ul>
@@ -52,17 +60,20 @@
       </section>
 
       <section id="contact">
-        <form>
+        <form class="animate__fadeInLeft">
           <h1>To contact me fill out this form below</h1>
-          <div class="parent">
-            <label for="Name">Name:</label>
-            <input type="text" id="Name" placeholder="Entre your Name" />
-            <label for="Email">Email:</label>
-            <input type="text" id="Email" placeholder="Entre your Email" />
+          <label for="Name">Name:</label>
+          <input type="text" id="Name" placeholder="Entre your Name" />
+          <label for="Email">Email:</label>
+          <input type="text" id="Email" placeholder="Entre your Email" />
 
-            <label for="message" id="desription">Description:</label>
-            <textarea id="message"> </textarea>
-            <button>submit</button>
+          <label for="message" id="desription">Description:</label>
+          <textarea id="message"> </textarea>
+          <button>submit</button>
+          <div class="icon">
+            <i class="bx bxl-linkedin-square" style="color: #1550ff"></i>
+            <i class="bx bxl-instagram insta"></i>
+            <i class="bx bxl-twitter" style="color: #1550ff"></i>
           </div>
         </form>
       </section>
